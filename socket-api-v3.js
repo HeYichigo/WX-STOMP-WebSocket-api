@@ -135,7 +135,7 @@ class SocketApi {
     })
   }
 }
-const socket = new SocketApi('wss://www.dutbit.com/demo/chat')
+const socket = new SocketApi('wss://XXXXXXXXX')
 socket.initSocket()
 const Client = socket.stompClient
 export default Client
